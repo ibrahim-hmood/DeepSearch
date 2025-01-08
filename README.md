@@ -3,9 +3,14 @@ DeepSearch is a service that gathers adult content (both deep fake and not), and
 
 # Roadmap
 Currently, my roadmap looks like this. It is very basic:
-    [x] develop a basic web crawler
-    [ ] develop a convolutional neural network for video processing
-    [ ] develop a recurrent neural network for image processing
+- [x] create a basic web crawler
+- [x] create a web crawler for deep fake content
+- [ ] create a web crawler for non-deepfake content
+- [ ] create a convolutional neural network for video classification
+- [ ] create a recurrent neural network for image classification
+- [ ] start training the neural networks
+- [ ] test and re-train until networks are above 90% accurate
+- [ ] host this service using REST API and Flutter
 
 # How to test
 To test this, run the following code:
