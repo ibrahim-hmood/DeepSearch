@@ -15,9 +15,13 @@ class DeepConfig:
         if(config_path is not None):
             #Check if the configuration file exists
             if(exists(config_path)):
-                self.__debugger.debug("Trying configuration file at {}".format(config_path))
+                self.__debugger.debug("Trying configuration file at '{}'".format(config_path))
                 #Read the configuration data
                 self.__read(config_path)
+            else:
+                 #Show that we failed to read the configuration
+                 self.__debugger.warn("Failed to use configuration file '{}'".format(config_path))
+                 
     
     """
     __read: try to read configuration data from path into config

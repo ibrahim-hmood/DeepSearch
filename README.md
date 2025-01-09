@@ -5,6 +5,7 @@ DeepSearch is a service that gathers adult content (both deep fake and not), and
 Currently, my roadmap looks like this. It is very basic:
 - [x] create a basic web crawler
 - [x] create a web crawler for deep fake content
+- [ ] make web crawlers multithreaded by default
 - [ ] create a web crawler for non-deepfake content
 - [ ] create a convolutional neural network for video classification
 - [ ] create a recurrent neural network for image classification
