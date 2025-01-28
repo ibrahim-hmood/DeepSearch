@@ -19,7 +19,7 @@ To test this, run the following code:
 from crawler.crawler import Crawler
 from config import DeepConfig
 
-crawler = Crawler(DeepConfig("./adfconfig.conf"))
+crawler = Crawler(DeepConfig("./assets/adfconfig.conf"))
 crawl_results = adf.crawl("[URL]")
 crawler.save_videos(crawl_results, "test/videos")
 ```
